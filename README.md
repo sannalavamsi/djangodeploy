@@ -32,16 +32,15 @@ https://vamsi-mysite.herokuapp.com/myapp/products/
  4. git add .
  5. git branch -m main
  6. git remove add origin http://....
- 7. git config user.name "..."
- 8. git config user.email "..."
- Password is asked and you need to go in to gitHub
-   1. settings
+ 7. git config user.name "..."    #GitHub
+ 8. git config user.email "..."   #GitHub
+ 9. git push -u origin main
+ 
+#GitHub Password is asked and you need to give the Token insead
+   1. GitHub  / settings
    2. Developer settings
    3. Personal token access
    4. Create token
- 
- 9. git push -u origin main
- 
  
  --> If Source is Modefied and want to upload to GitHub Repository follow this Steps:
  
