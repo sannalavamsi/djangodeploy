@@ -23,12 +23,13 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'lr#yjr!9p7(x8d6@w!-_fkwvcy6fe(i9poxwwp!jv#l(^&77#+'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 if DEBUG:
     STRIPE_PUBLISHABLE_KEY = 'pk_test_51LjbwTSICcDWknF04Ti9OmZoKsOZLleBBuc487rHyJtBt9LOfeFl8VNKifmmEW5JVvyVfCMtXnZG69RvP8HHlEJe00IxGxAbJ6'
     STRIPE_SECRET_KEY = 'sk_test_51LjbwTSICcDWknF0S4IOi5GLWU9ETZsxQX2bAUdCyaSwfjUtHyAZOFK0w3lSaLgALCZqGzyvb7a9crvqv3Jn9f9r00gTBKn932'
-ALLOWED_HOSTS = []
+
+ALLOWED_HOSTS = ['vamsi-mysite.herokuapp.com','127.0.0.1']
 
 
 # Application definition
