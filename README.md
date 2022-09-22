@@ -16,6 +16,8 @@ https://vamsi-mysite.herokuapp.com/myapp/products/
 5. Create Procfile - python-3.10.5
 6. Create .gitignore - add env/  , so that while pushing into GitHub env file is ignored.
 
+ --> Create new Repository in GitHub/ give a name
+ 
  --> Git:
  
  Git is a DevOps tool used for source code management. 
