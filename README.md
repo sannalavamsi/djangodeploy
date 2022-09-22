@@ -1,6 +1,7 @@
 # django-deploy
 
-View the working site but images are not loading
+Buy & Sell E-Commerce site: 
+
 https://vamsi-mysite.herokuapp.com/myapp/products/
 
 --> Steps to Upload Django Project into Heroku :
@@ -53,4 +54,6 @@ https://vamsi-mysite.herokuapp.com/myapp/products/
  1. DEBUG = False
  2. ALLOWED_HOSTS = ['vamsi-mysite.herokuapp.com','127.0.0.1']
  
+ --> Heroku
+ 1.settings/ Add buildpack/ python
  
