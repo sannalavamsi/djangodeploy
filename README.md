@@ -33,7 +33,7 @@ https://vamsi-mysite.herokuapp.com/myapp/products/
  3. git commit -m "first commit"
  4. git add .
  5. git branch -m main
- 6. git remove add origin http://....
+ 6. git remote add origin http://....
  7. git config user.name "..."    #GitHub
  8. git config user.email "..."   #GitHub
  9. git push -u origin main
