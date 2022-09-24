@@ -2,7 +2,7 @@
 
 Buy & Sell E-Commerce site: 
 
-https://vamsi-mysite.herokuapp.com/myapp/products/
+https://vamsi-buy-and-sell.herokuapp.com/myapp/products/
 
 --> Steps to Upload Django Project into Heroku :
 
