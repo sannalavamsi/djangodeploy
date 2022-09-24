@@ -54,7 +54,11 @@ https://vamsi-mysite.herokuapp.com/myapp/products/
  --> settings.py
  1. DEBUG = False
  2. ALLOWED_HOSTS = ['vamsi-mysite.herokuapp.com','127.0.0.1']
- 
+ 3. STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles') --> for handling staticfiles
+ 4. "whitenoise.middleware.WhiteNoiseMiddleware", --> middleware
+
+
  --> Heroku
  1.settings/ Add buildpack/ python
  
+
